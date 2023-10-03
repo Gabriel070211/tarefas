@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68e45f3ebe.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+   
+</head>
+
+<body>
+    <div class="container">
+    <div id="titulo">
+        <h1>LISTA DE TAREFAS</h1>
+        <hr>
+    </div>
+    <div class="task-input">
+    <label>Digite sua tarefa:</label>
+    <input type="text" id="input" placeholder="nova tarefa">
+
+    
+
+    <button onclick="add()"> add </button>
+    </div>
+        <br>
+    <div id="todasaslistas">
+                <div class="cards" id="card_afazer">
+                    <h2 id="afazer">a fazer</h2>
+                    <ul id="listaafazer">
+                     
+                        
+                    </ul>
+                    
+                
+                </div>
+                <div class="cards" id="card_emandamento">
+                    <h2 id="emandamento">em andamento</h2>
+                    <ul id="listaemandamento">
+                    
+                    </ul>
+                    
+                    
+                
+                </div>
+                <div class="cards" id="card_concluido">
+                    <h2 id="concluido">concluido</h2>
+                    <ul id="listaconcluido">
+                    
+                    </ul>
+                    
+    
+                </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
